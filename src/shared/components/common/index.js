@@ -1,0 +1,1 @@
+export CustomPaper from './Paper/Paper';

@@ -1,0 +1,33 @@
+@import "../../../shared/style/global";
+
+.wrapper {
+  padding: pxToRem(16);
+  height: pxToRem(100);
+}
+
+.symbol {
+  padding: 0 pxToRem(16) 0 0;
+}
+
+.infoWrapper {
+  margin: pxToRem(8) 0 0 0;
+
+  &:first-of-type {
+    margin: 0;
+  }
+}
+
+.infoColumn {
+  margin: 0 0 0 pxToRem(16);
+}
+
+.title {
+  color: $green;
+  font-size: pxToRem(10);
+  text-align: left;
+}
+
+.price {
+  font-size: pxToRem(12);
+  text-align: left;
+}

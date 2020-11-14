@@ -1,0 +1,70 @@
+@import "./elements.scss";
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin custom-scrollbar() {
+  &::-webkit-scrollbar {
+    background-color: #f1f1f1;
+    height: 9px;
+    width: 9px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 20px 20px #8d8d8d;
+    border: solid 1px transparent;
+    border-radius: 10px;
+  }
+}
+
+@mixin fade-in($duration) {
+  animation: fadeIn $duration ease;
+}
+
+@mixin truncate-text() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin is-mobile {
+  @media (max-width: 768px) { @content; }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@function pxToRem($px) {
+  @return unquote($px/16 + "rem");
+}
+
+@mixin selector-ease-in() {
+  transition: all .4s ease-in;
+}
+
+@mixin hover-ease-in() {
+  transition: background-color 0.25s ease-in-out;
+}
+
+@mixin color-ease-in() {
+  @include ease-in(color, 0.25s)
+}
+
+@mixin field-border() {
+  border-radius: $border-radius;
+  border: $border;
+}
+
+@mixin ease-in($prop, $duration) {
+  transition: $prop $duration ease-in-out;
+}
