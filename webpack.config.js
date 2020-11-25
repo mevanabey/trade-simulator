@@ -41,6 +41,7 @@ module.exports = {
     },
   },
   devServer: {
+    host: 'https://crypto-trade-simulator.herokuapp.com',
     port: process.env.PORT || 5000,
     historyApiFallback: true
   },
