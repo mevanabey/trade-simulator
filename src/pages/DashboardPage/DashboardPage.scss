@@ -5,6 +5,8 @@
   width: 100%;
   overflow-y: auto;
   padding: pxToRem(16);
+
+  @include custom-scrollbar;
 }
 
 .coinCardsWrapper {

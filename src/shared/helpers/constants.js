@@ -1,48 +1,83 @@
 export const COINS = [
   {
     name: 'BTC',
-    binanceSymbol: 'btcusd',
-    tvSymbol: 'BINANCE:BTCUSDT'
+    binanceSymbol: 'btcusdt',
+    price: 0,
+    tvSymbol: 'BINANCE:BTCUSDT',
+    streamName: 'btcusdt@ticker',
+    currency: 'USD'
   },
   {
     name: 'ETH',
-    binanceSymbol: 'ethusd',
-    tvSymbol: 'BINANCE:ETHUSDT'
+    binanceSymbol: 'ethusdt',
+    price: 0,
+    tvSymbol: 'BINANCE:ETHUSDT',
+    streamName: 'ethusdt@ticker',
+    currency: 'USD'
   },
   {
     name: 'LTC',
     binanceSymbol: 'ltcbtc',
-    tvSymbol: 'BINANCE:LTCBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:LTCBTC',
+    streamName: 'ltcbtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'UNI',
     binanceSymbol: 'unibtc',
-    tvSymbol: 'BINANCE:UNIBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:UNIBTC',
+    streamName: 'unibtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'ADA',
     binanceSymbol: 'adabtc',
-    tvSymbol: 'BINANCE:ADABTC'
+    price: 0,
+    tvSymbol: 'BINANCE:ADABTC',
+    streamName: 'adabtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'AAVE',
     binanceSymbol: 'aavebtc',
-    tvSymbol: 'BINANCE:AAVEBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:AAVEBTC',
+    streamName: 'aavebtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'DOT',
     binanceSymbol: 'dotbtc',
-    tvSymbol: 'BINANCE:DOTBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:DOTBTC',
+    streamName: 'dotbtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'RUNE',
     binanceSymbol: 'runebtc',
-    tvSymbol: 'BINANCE:RUNEBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:RUNEBTC',
+    streamName: 'runebtc@ticker',
+    currency: 'BTC'
   },
   {
     name: 'LINK',
     binanceSymbol: 'linkbtc',
-    tvSymbol: 'BINANCE:LINKBTC'
+    price: 0,
+    tvSymbol: 'BINANCE:LINKBTC',
+    streamName: 'linkbtc@ticker',
+    currency: 'BTC'
+  },
+  {
+    name: 'XRP',
+    binanceSymbol: 'xrpbtc',
+    price: 0,
+    tvSymbol: 'BINANCE:XRPBTC',
+    streamName: 'xrpbtc@ticker',
+    currency: 'BTC'
   },
 ];
 

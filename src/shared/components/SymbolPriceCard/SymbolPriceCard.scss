@@ -18,6 +18,16 @@
   }
 }
 
+.priceWrapper {
+  .title {
+    font-size: pxToRem(13);
+  }
+
+  .price {
+    font-size: pxToRem(18);
+  }
+}
+
 .infoColumn {
   margin: 0 0 0 pxToRem(16);
 }
